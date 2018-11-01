@@ -6,15 +6,19 @@
 }
 
 .tierImg {
-    width: 200px;
+    width: 250px;
+}
+
+.mvcImg {
+    width: 250px;
 }
 
 .mvvcImg {
-    width: 300px;
+    width: 200px;
 }
 
 .fluxImgTool {
-    width: 250px;
+    width: 200px;
 }
 
 .imagesContainer {
@@ -24,4 +28,8 @@
     width: 80%;
     margin-right: 10%;
     margin-left: 10%; 
+}
+
+.margin {
+    margin-bottom: 100px;
 }

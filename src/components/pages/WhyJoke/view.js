@@ -1,5 +1,5 @@
 import React from 'react'
-import picture from '../../../assets/003-why-joke.jpg'
+import picture from '../../../assets/003-why-joke.png'
 import './styles.css'
 
 function WhyJokeView() {
