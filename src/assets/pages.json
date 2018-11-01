@@ -10,7 +10,6 @@
     "007-mvc-problem",
     "008-flux-diagram",
     "009-flux-concepts",
-    "010-flux-flow",
     "011-flux-mvc-differences",
     "012-example",
     "013-example-store",
@@ -19,7 +18,6 @@
     "016-example-dispatcher",
     "017-example-store",
     "018-example-view",
-    "019-flux-better-mvc",
-    "020-thanks"
+    "019-flux-better-mvc"
   ]
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import picture1 from '../../../assets/012-example-alfajor.png'
 import picture2 from '../../../assets/012-example-gaseosa.png'
 import picture3 from '../../../assets/012-example-candy.png'
+import Box from '../../shared/Box'
+
 import './styles.css'
 
 function ExampleView1View() {
@@ -10,29 +12,33 @@ function ExampleView1View() {
       <div className="pageTitle">La vista inicial</div>
       <div className="wrapper">
         <div className="flux-flow">
-          <div className="box highlighted">View</div>
-          <div className="box">Action</div>
-          <div className="box">Dispatcher</div>
-          <div className="box">Store</div>
+        <Box active>View</Box>
+          <Box>Action</Box>
+          <Box>Dispatcher</Box>
+          <Box >Store</Box>
         </div>
-        <div className="main">
-          <ul>
-            <li className="product">
-              <div>Alfajor</div>
-              <div>$10</div>
-              <div><img src={picture1} alt="Alfajor" /></div>
-            </li>
-            <li className="product">
-              <div>Gaseosa</div>
-              <div>$25</div>
-              <div><img src={picture2} alt="Gaseosa" /></div>
-            </li>
-            <li className="product">
-              <div>Caramelos</div>
-              <div>$2</div>
-              <div><img src={picture3} alt="Candy" /></div>
-            </li>
-          </ul>
+        <div className="exampleContainer">
+          <div className="productItem">
+            <div>Alfajor</div>
+            <div>$10</div>
+            <div>
+              <img src={picture1} alt="Alfajor" className="productImg"/>
+            </div>
+          </div>
+          <div className="productItem">
+            <div>Gaseosa</div>
+            <div>$25</div>
+            <div>
+              <img src={picture2} alt="Gaseosa" className="productImg"/>
+            </div>
+          </div>
+          <div className="productItem">
+            <div>Caramelos</div>
+            <div>$2</div>
+            <div>
+              <img src={picture3} alt="Candy" className="productImg"/>
+            </div>
+          </div>
         </div>
       </div>
     </div>

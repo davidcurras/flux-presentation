@@ -1,16 +1,17 @@
 import React from 'react'
+import Box from '../../shared/Box'
 import './styles.css'
 
-function ExampleStore2View() {
+function ExampleStore1View() {
   return (
     <div>
-      <div className="pageTitle">El Store Actualizado</div>
+      <div className="pageTitle">El Store Inicial</div>
       <div className="wrapper">
         <div className="flux-flow">
-          <div className="box">View</div>
-          <div className="box">Action</div>
-          <div className="box">Dispatcher</div>
-          <div className="box highlighted">Store</div>
+          <Box>View</Box>
+          <Box>Action</Box>
+          <Box>Dispatcher</Box>
+          <Box active>Store</Box>
         </div>
         <div className="main">
           <ul>
@@ -33,4 +34,4 @@ function ExampleStore2View() {
   )
 }
 
-export default ExampleStore2View
+export default ExampleStore1View

@@ -1,4 +1,5 @@
 import React from 'react'
+import Box from '../../shared/Box'
 import './styles.css'
 
 function ExampleActionView() {
@@ -7,10 +8,10 @@ function ExampleActionView() {
       <div className="pageTitle">La Action</div>
       <div className="wrapper">
         <div className="flux-flow">
-          <div className="box">View</div>
-          <div className="box highlighted">Action</div>
-          <div className="box">Dispatcher</div>
-          <div className="box">Store</div>
+        <Box >View</Box>
+          <Box active>Action</Box>
+          <Box>Dispatcher</Box>
+          <Box >Store</Box>
         </div>
         <div className="main">
           <ul>

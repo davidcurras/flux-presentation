@@ -3,46 +3,55 @@ import picture1 from '../../../assets/012-example-alfajor.png'
 import picture2 from '../../../assets/012-example-gaseosa.png'
 import picture3 from '../../../assets/012-example-candy.png'
 import picture4 from '../../../assets/018-example-bubblegum.png'
+
+import Box from '../../shared/Box'
+
 import './styles.css'
 
-function ExampleView2View() {
+function ExampleView1View() {
   return (
     <div>
-      <div className="pageTitle">La vista actualizada</div>
+      <div className="pageTitle">La vista inicial</div>
       <div className="wrapper">
         <div className="flux-flow">
-          <div className="box highlighted">View</div>
-          <div className="box">Action</div>
-          <div className="box">Dispatcher</div>
-          <div className="box">Store</div>
+        <Box active>View</Box>
+          <Box>Action</Box>
+          <Box>Dispatcher</Box>
+          <Box >Store</Box>
         </div>
-        <div className="main">
-          <ul>
-            <li className="product">
-              <div>Alfajor</div>
-              <div>$10</div>
-              <div><img src={picture1} alt="Alfajor" /></div>
-            </li>
-            <li className="product">
-              <div>Gaseosa</div>
-              <div>$25</div>
-              <div><img src={picture2} alt="Gaseosa" /></div>
-            </li>
-            <li className="product">
-              <div>Caramelos</div>
-              <div>$2</div>
-              <div><img src={picture3} alt="Candy" /></div>
-            </li>
-            <li className="product">
-              <div>Chicle</div>
-              <div>$3</div>
-              <div><img src={picture4} alt="BubbleGum" /></div>
-            </li>
-          </ul>
+        <div className="exampleContainer">
+          <div className="productItem">
+            <div>Alfajor</div>
+            <div>$10</div>
+            <div>
+              <img src={picture1} alt="Alfajor" className="productImg"/>
+            </div>
+          </div>
+          <div className="productItem">
+            <div>Gaseosa</div>
+            <div>$25</div>
+            <div>
+              <img src={picture2} alt="Gaseosa" className="productImg"/>
+            </div>
+          </div>
+          <div className="productItem">
+            <div>Caramelos</div>
+            <div>$2</div>
+            <div>
+              <img src={picture3} alt="Candy" className="productImg"/>
+            </div>
+          </div>
+          <div className="productItem">
+            <div>Chicle</div>
+            <div>$3</div>
+            <div>
+              <img src={picture4} alt="Candy" className="productImg"/>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default ExampleView2View
+export default ExampleView1View

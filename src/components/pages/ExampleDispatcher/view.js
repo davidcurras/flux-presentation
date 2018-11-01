@@ -1,4 +1,5 @@
 import React from 'react'
+import Box from '../../shared/Box'
 import './styles.css'
 
 function ExampleDispatcherView() {
@@ -7,10 +8,10 @@ function ExampleDispatcherView() {
       <div className="pageTitle">El Dispatcher</div>
       <div className="wrapper">
         <div className="flux-flow">
-          <div className="box">View</div>
-          <div className="box">Action</div>
-          <div className="box highlighted">Dispatcher</div>
-          <div className="box">Store</div>
+        <Box>View</Box>
+          <Box>Action</Box>
+          <Box active>Dispatcher</Box>
+          <Box >Store</Box>
         </div>
         <div className="main">
           <ul>
