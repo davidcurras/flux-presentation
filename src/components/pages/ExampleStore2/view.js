@@ -1,10 +1,10 @@
 import React from 'react'
 import './styles.css'
 
-function ExampleStore1View() {
+function ExampleStore2View() {
   return (
     <div>
-      <h1>El Store Inicial</h1>
+      <h1>El Store Actualizado</h1>
       <div className="flux-flow">
         <div className="box">View</div>
         <div className="box">Action</div>
@@ -21,9 +21,12 @@ function ExampleStore1View() {
         <li className="product">
           &#123; id: 'a003', name: 'Caramelos', price: 2 &#125;
         </li>
+        <li className="product">
+          &#123; id: 'a004', name: 'Chicle', price: 3 &#125;
+        </li>
       </ul>
     </div>
   )
 }
 
-export default ExampleStore1View
+export default ExampleStore2View
