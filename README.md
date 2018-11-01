@@ -1,44 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## CIITI 2018 - Rosario - Flux Architecture
 
-## Available Scripts
+This is a web project for presenting the Flux Architecture for the 15th edition of the International Congress for Innovation in Information Technology [(CIITI 2018)](https://www.uai.edu.ar/ciiti/2018/rosario/congreso/default.asp).
 
-In the project directory, you can run:
+### Run it locally
 
-### `npm start`
+#### Requirements
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Node v8+
+Yarn v1.7+
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### Quick Start
 
-### `npm test`
+```sh
+# Install dependencies
+yarn
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Run local server
+yarn start
+```
 
-### `npm run build`
+The server should start at http://localhost:3000/.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### License and Legal
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+This code-base is released under the [MIT License](http://opensource.org/licenses/MIT).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All dependencies are released under their own respective licenses.
 
-### `npm run eject`
+Most images, logos, characters, dialog, plot, and other assets taken from original blogs and sites
+are copyrights of third parties; I claim no ownership of any of the assets used on this repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Play it
+Run the presentation [https://davidcurras.github.io/flux-presentation](https://davidcurras.github.io/flux-presentation/)
