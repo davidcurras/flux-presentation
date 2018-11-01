@@ -9,7 +9,7 @@ function ArchitecturalHistoryView() {
   return (
     <div>
       <div className="pageTitle">Algunas Arquitecturas de Software</div>
-      <div className="imagesContainer margin">
+      <div className="imagesContainer2 margin">
         <div className="image">
           <img src={picture1} alt="3 Tier" className="tierImg" />
         </div>
@@ -17,7 +17,7 @@ function ArchitecturalHistoryView() {
           <img src={picture2} alt="MVC" className="mvcImg" />
         </div>
       </div>
-      <div className="imagesContainer">
+      <div className="imagesContainer2">
         <div className="image">
           <img src={picture3} alt="MVVM" className="mvvcImg"  />
         </div>

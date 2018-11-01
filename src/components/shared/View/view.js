@@ -3,7 +3,7 @@ import './styles.css'
 
 function View() {
   return (
-    <div className="boxView">
+    <div className="boxView2">
       <div className="nameComponent">View</div>
     </div>
   )
