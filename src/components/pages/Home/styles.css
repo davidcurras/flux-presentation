@@ -1,0 +1,33 @@
+.homeContainer {
+  background-color: #3E3F41;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.fluxImg {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.title {
+  color: #E2E4E5;
+  font-size: 40px;
+}
+
+.name {
+  font-size: 20px;
+  background-color: white;
+  padding: 5px 10px;  
+  border-radius: 10px;
+  color: #2F3032;
+}
