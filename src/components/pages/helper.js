@@ -8,6 +8,17 @@ import MVCConcept from './MVCConcept'
 import MVCProblem from './MVCProblem'
 import FluxDiagram from './FluxDiagram'
 import FluxConcepts from './FluxConcepts'
+import FluxFlow from './FluxFlow'
+import FluxVsMVC from './FluxVsMVC'
+import Example from './Example'
+import ExampleStore1 from './ExampleStore1'
+import ExampleView1 from './ExampleView1'
+import ExampleAction from './ExampleAction'
+import ExampleDispatcher from './ExampleDispatcher'
+import ExampleStore2 from './ExampleStore2'
+import ExampleView2 from './ExampleView2'
+import FluxOrMVC from './FluxOrMVC'
+import Thanks from './Thanks'
 
 const componentsForPages = {
   'home': Home,
@@ -20,17 +31,17 @@ const componentsForPages = {
   '007-mvc-problem': MVCProblem,
   '008-flux-diagram': FluxDiagram,
   '009-flux-concepts': FluxConcepts,
-  '010-flux-flow': null,
-  '011-flux-mvc-differences': null,
-  '012-example': null,
-  '013-example-store': null,
-  '014-example-view': null,
-  '015-example-action': null,
-  '016-example-dispatcher': null,
-  '017-example-store': null,
-  '018-example-view': null,
-  '019-flux-better-mvc': null,
-  '020-questions': null,
+  '010-flux-flow': FluxFlow,
+  '011-flux-mvc-differences': FluxVsMVC,
+  '012-example': Example,
+  '013-example-store': ExampleStore1,
+  '014-example-view': ExampleView1,
+  '015-example-action': ExampleAction,
+  '016-example-dispatcher': ExampleDispatcher,
+  '017-example-store': ExampleStore2,
+  '018-example-view': ExampleView2,
+  '019-flux-better-mvc': FluxOrMVC,
+  '020-thanks': Thanks,
 }
 
 const getComponent = pageId => componentsForPages[pageId]
