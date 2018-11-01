@@ -1,3 +1,3 @@
-import Home from './view'
+import CommonConcept from './view'
 
-export default Home
+export default CommonConcept

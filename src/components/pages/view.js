@@ -1,6 +1,5 @@
 import React from 'react'
 import getComponent from './helper'
-import logo from '../../assets/logo.svg'
 import './styles.css'
 
 function Pages(props) {
