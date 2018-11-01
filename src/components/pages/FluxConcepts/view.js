@@ -4,7 +4,7 @@ import './styles.css'
 function FluxConceptsView() {
   return (
     <div>
-      <h1>FLUX</h1>
+      <div className="pageTitle">FLUX</div>
       <ul>
         <li>
           Las Actions contienen la descripción de la acción a ejecutar.

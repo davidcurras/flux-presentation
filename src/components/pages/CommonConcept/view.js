@@ -5,8 +5,8 @@ import './styles.css'
 function CommonConceptView() {
   return (
     <div>
-      <h1>Arquitectura?</h1>
-      <img src={picture} alt="Common Concept" />
+      <div className="pageTitle">¿Arquitectura?</div>
+      <img src={picture} alt="Common Concept"  className="commonImg"/>
     </div>
   )
 }

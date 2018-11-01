@@ -8,11 +8,23 @@ import './styles.css'
 function ArchitecturalHistoryView() {
   return (
     <div>
-      <h1>Algunas Arquitecturas de Software</h1>
-      <img src={picture1} alt="3 Tier" />
-      <img src={picture2} alt="MVC" />
-      <img src={picture3} alt="MVVM" />
-      <img src={picture4} alt="Flux" />
+      <div className="pageTitle">Algunas Arquitecturas de Software</div>
+      <div className="imagesContainer">
+        <div className="image">
+          <img src={picture1} alt="3 Tier" className="tierImg" />
+        </div>
+        <div className="image">
+          <img src={picture2} alt="MVC" />
+        </div>
+      </div>
+      <div className="imagesContainer">
+        <div className="image">
+          <img src={picture3} alt="MVVM" className="mvvcImg"  />
+        </div>
+        <div className="image"> 
+          <img src={picture4} alt="Flux" className="fluxImgTool" />
+        </div>
+      </div>
     </div>
   )
 }

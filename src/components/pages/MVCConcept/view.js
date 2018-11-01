@@ -5,7 +5,7 @@ import './styles.css'
 function MVCConceptView() {
   return (
     <div>
-      <h1>MVC</h1>
+      <div className="pageTitle">MVC</div>
       <img src={picture} alt="MVC Concept" />
     </div>
   )

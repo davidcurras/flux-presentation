@@ -5,7 +5,7 @@ import './styles.css'
 function MVCProblemView() {
   return (
     <div>
-      <h1>El problema con MVC</h1>
+      <div className="pageTitle">El problema con MVC</div>
       <img src={picture} alt="MVC Problem" />
     </div>
   )

@@ -5,7 +5,7 @@ import './styles.css'
 function FluxDiagramView() {
   return (
     <div>
-      <h1>FLUX</h1>
+      <div className="pageTitle">FLUX</div>
       <img src={picture} alt="Flux Diagram" />
     </div>
   )

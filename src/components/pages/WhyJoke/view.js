@@ -5,8 +5,8 @@ import './styles.css'
 function WhyJokeView() {
   return (
     <div>
-      <h1>¿Por que es necesario un patrón de arquitectura?</h1>
-      <img src={picture} alt="Why Joke" />
+      <div className="pageTitle">¿Por que es necesario un patrón de arquitectura?</div>
+      <img src={picture} alt="Why Joke" className="jokeImg" />
     </div>
   )
 }

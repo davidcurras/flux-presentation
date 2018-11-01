@@ -1,12 +1,12 @@
 import React from 'react'
-import picture from '../../../assets/004-history.jpg'
+import picture from '../../../assets/004-history.png'
 import './styles.css'
 
 function HistoryView() {
   return (
     <div>
-      <h1>Historia de la Arquitectura</h1>
-      <img src={picture} alt="History" />
+      <div className="pageTitle">Historia de la Arquitectura</div>
+      <img src={picture} alt="History" className="historyImg"/>
     </div>
   )
 }

@@ -1,0 +1,27 @@
+.pageTitle {
+    color: #2F3032;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 35px;
+}
+
+.tierImg {
+    width: 200px;
+}
+
+.mvvcImg {
+    width: 300px;
+}
+
+.fluxImgTool {
+    width: 250px;
+}
+
+.imagesContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; 
+}

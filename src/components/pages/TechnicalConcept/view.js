@@ -5,8 +5,8 @@ import './styles.css'
 function TechnicalConceptView() {
   return (
     <div>
-      <h1>Arquitectura de Software</h1>
-      <img src={picture} alt="Technical Concept" />
+      <div className="pageTitle">Arquitectura de Software</div>
+      <img src={picture} alt="Technical Concept" className="techImg" />
     </div>
   )
 }
