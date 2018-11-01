@@ -4,3 +4,34 @@
     font-size: 40px;
     margin: 35px;
 }
+
+.mvcContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 80px;
+}
+
+.small {
+    font-size: 50px;
+}
+
+.down {
+    margin-right: 80px;
+}
+
+.viewModel {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
