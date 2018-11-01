@@ -1,0 +1,15 @@
+.pageTitle {
+  color: #2F3032;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 35px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}

@@ -4,6 +4,7 @@ import * as serviceWorker from './serviceWorker';
 import pages from './assets/pages';
 import PagesActions from './flux/actions/pages';
 import App from './components/pages';
+import './reset.css';
 import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
