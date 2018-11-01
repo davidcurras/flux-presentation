@@ -8,6 +8,10 @@ import MVCConcept from './MVCConcept'
 import MVCProblem from './MVCProblem'
 import FluxDiagram from './FluxDiagram'
 import FluxConcepts from './FluxConcepts'
+import FluxFlow from './FluxFlow'
+import FluxVsMVC from './FluxVsMVC'
+import Example from './Example'
+import ExampleStore1 from './ExampleStore1'
 
 const componentsForPages = {
   'home': Home,
@@ -20,10 +24,10 @@ const componentsForPages = {
   '007-mvc-problem': MVCProblem,
   '008-flux-diagram': FluxDiagram,
   '009-flux-concepts': FluxConcepts,
-  '010-flux-flow': null,
-  '011-flux-mvc-differences': null,
-  '012-example': null,
-  '013-example-store': null,
+  '010-flux-flow': FluxFlow,
+  '011-flux-mvc-differences': FluxVsMVC,
+  '012-example': Example,
+  '013-example-store': ExampleStore1,
   '014-example-view': null,
   '015-example-action': null,
   '016-example-dispatcher': null,
