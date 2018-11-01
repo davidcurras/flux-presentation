@@ -1,7 +1,7 @@
 {
-  "main.css": "static/css/main.df1db2f5.chunk.css",
-  "main.js": "static/js/main.f3f3f83a.chunk.js",
-  "main.js.map": "static/js/main.f3f3f83a.chunk.js.map",
+  "main.css": "static/css/main.4233a066.chunk.css",
+  "main.js": "static/js/main.8f697ca5.chunk.js",
+  "main.js.map": "static/js/main.8f697ca5.chunk.js.map",
   "static/js/1.b0dab1b2.chunk.js": "static/js/1.b0dab1b2.chunk.js",
   "static/js/1.b0dab1b2.chunk.js.map": "static/js/1.b0dab1b2.chunk.js.map",
   "runtime~main.js": "static/js/runtime~main.229c360f.js",
@@ -19,8 +19,8 @@
   "static/media/005-architectural-history-mvvm.png": "static/media/005-architectural-history-mvvm.85b56682.png",
   "static/media/010-flux-flow.gif": "static/media/010-flux-flow.6e23336f.gif",
   "static/media/012-example-gaseosa.png": "static/media/012-example-gaseosa.d04c26a5.png",
-  "static/css/main.df1db2f5.chunk.css.map": "static/css/main.df1db2f5.chunk.css.map",
+  "static/css/main.4233a066.chunk.css.map": "static/css/main.4233a066.chunk.css.map",
   "index.html": "index.html",
-  "precache-manifest.5ea6fb309a1e21cd2b8a34a1097aced6.js": "precache-manifest.5ea6fb309a1e21cd2b8a34a1097aced6.js",
+  "precache-manifest.38b2a323ccb59d12425a3c3f2c4003d1.js": "precache-manifest.38b2a323ccb59d12425a3c3f2c4003d1.js",
   "service-worker.js": "service-worker.js"
 }

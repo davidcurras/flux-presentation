@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "static/media/005-architectural-history-flux.5fa903ac.png"
   },
   {
-    "revision": "f3f3f83ac966084e3a14",
-    "url": "static/css/main.df1db2f5.chunk.css"
+    "revision": "8f697ca56f51a84fa4f6",
+    "url": "static/css/main.4233a066.chunk.css"
   },
   {
     "revision": "b0dab1b2bed6303f9331",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "static/media/005-architectural-history-mvc.fab1f37f.png"
   },
   {
-    "revision": "f3f3f83ac966084e3a14",
-    "url": "static/js/main.f3f3f83a.chunk.js"
+    "revision": "8f697ca56f51a84fa4f6",
+    "url": "static/js/main.8f697ca5.chunk.js"
   },
   {
     "revision": "c7929c039d44f7dbba3d87ba58c00580",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "static/media/018-example-bubblegum.dd6153f5.png"
   },
   {
-    "revision": "df85924f7d4e7939fe2488607a92946d",
+    "revision": "7791b9bd938b150022f2fe85a0f8a662",
     "url": "index.html"
   }
 ];
