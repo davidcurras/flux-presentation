@@ -1,7 +1,6 @@
 import React from 'react'
 import getComponent from './helper'
 import Header from './Header'
-import logo from '../../assets/logo.svg'
 import './styles.css'
 
 function Pages(props) {
