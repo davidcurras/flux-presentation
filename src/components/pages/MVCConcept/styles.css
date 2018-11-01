@@ -1,37 +1,42 @@
 .pageTitle {
-    color: #2F3032;
-    font-weight: 500;
-    font-size: 40px;
-    margin: 35px;
+  color: #2F3032;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 35px;
+}
+
+.mvcWrapper {
+  display: block;
+  margin: 150px 30%;
 }
 
 .mvcContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 600px;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
 }
 
 .arrow {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 .small {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .down {
-    margin-right: 80px;
+  margin-right: 80px;
 }
 
 .viewModel {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .middle {
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
 }

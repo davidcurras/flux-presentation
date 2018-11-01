@@ -1,14 +1,52 @@
 import React from 'react'
-import picture from '../../../assets/007-mvc-problem.png'
+import View from '../../shared/View'
+import Action from '../../shared/Action'
+import Controller from '../../shared/Controller'
+import Model from '../../shared/Model'
 import './styles.css'
 
 function MVCProblemView() {
+
   return (
     <div>
       <div className="pageTitle">El problema con MVC</div>
-      <img src={picture} alt="MVC Problem" />
+      <div className="mvcWrapper">
+        <div className="mvcContainer">
+          <Action />
+          <span className="arrow">&rarr;</span>
+          <Controller />
+        </div>
+        <div className="middle">
+          <span className="small down">&darr;</span>
+        </div>
+        <div className="mvcContainer">
+          <View />
+          <div className="viewModel arrow">
+            <span className="small">&rarr;</span>
+            <span className="small">&larr;</span>
+          </div>
+          <Model />
+        </div>
+        <div className="mvcContainer">
+          <View />
+          <div className="viewModel arrow">
+            <span className="small">&rarr;</span>
+            <span className="small">&larr;</span>
+          </div>
+          <Model />
+        </div>
+        <div className="mvcContainer">
+          <View />
+          <div className="viewModel arrow">
+            <span className="small">&rarr;</span>
+            <span className="small">&larr;</span>
+          </div>
+          <Model />
+        </div>
+      </div>
     </div>
   )
+
 }
 
 export default MVCProblemView

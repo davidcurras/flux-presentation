@@ -1,5 +1,4 @@
 import React from 'react'
-import picture from '../../../assets/006-mvc.png'
 import View from '../../shared/View'
 import Action from '../../shared/Action'
 import Controller from '../../shared/Controller'
@@ -7,16 +6,18 @@ import Model from '../../shared/Model'
 import './styles.css'
 
 function MVCConceptView() {
+
   return (
     <div>
       <div className="pageTitle">MVC</div>
+      <div className="mvcWrapper">
         <div className="mvcContainer">
           <Action />
           <span className="arrow">&rarr;</span>
           <Controller />
-          </div>
+        </div>
         <div className="middle">
-          <span className="small down">&darr;</span> 
+          <span className="small down">&darr;</span>
         </div>
         <div className="mvcContainer">
           <View />
@@ -27,7 +28,9 @@ function MVCConceptView() {
           <Model />
         </div>
       </div>
+    </div>
   )
+  
 }
 
 export default MVCConceptView

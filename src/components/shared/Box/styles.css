@@ -1,0 +1,21 @@
+.boxView {
+  width: 200px;
+  height: 100px;
+  background: #233339;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #FFF;
+  box-shadow: 2px 1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.boxView.active {
+  background: #53B753;
+  font-weight: 900;
+}
+
+.nameComponent {
+  color: #FFF;
+  font-size: 30px;
+}
