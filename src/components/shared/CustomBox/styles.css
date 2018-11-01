@@ -1,7 +1,7 @@
-.boxReducer {
+.boxStore {
   width: 200px;
   height: 100px;
-  background: #303030;
+  background: #233339;
   border-radius: 15px;
   display: flex;
   justify-content: center;

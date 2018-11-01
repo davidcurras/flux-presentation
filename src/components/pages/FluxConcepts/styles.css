@@ -4,3 +4,20 @@
     font-size: 40px;
     margin: 35px;
 }
+
+.itemContainer{
+    padding: 0 10%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.textItem {
+    margin-left: 10px;
+    width: 80%;
+    font-size: 25px;
+}

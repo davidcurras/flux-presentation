@@ -7,24 +7,30 @@ import './styles.css'
 function ExampleView() {
   return (
     <div>
-      <h1>Un ejemplo que conozcamos todos</h1>
-      <ul>
-        <li className="product">
+      <div className="pageTitle">Un ejemplo que conozcamos todos</div>
+      <div className="exampleContainer">
+        <div className="productItem">
           <div>Alfajor</div>
           <div>$10</div>
-          <div><img src={picture1} alt="Alfajor" /></div>
-        </li>
-        <li className="product">
+          <div>
+            <img src={picture1} alt="Alfajor" className="productImg"/>
+          </div>
+        </div>
+        <div className="productItem">
           <div>Gaseosa</div>
           <div>$25</div>
-          <div><img src={picture2} alt="Gaseosa" /></div>
-        </li>
-        <li className="product">
+          <div>
+            <img src={picture2} alt="Gaseosa" className="productImg"/>
+          </div>
+        </div>
+        <div className="productItem">
           <div>Caramelos</div>
           <div>$2</div>
-          <div><img src={picture3} alt="Candy" /></div>
-        </li>
-      </ul>
+          <div>
+            <img src={picture3} alt="Candy" className="productImg"/>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
